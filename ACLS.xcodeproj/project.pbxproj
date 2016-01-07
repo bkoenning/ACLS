@@ -7,14 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BD1778AD1C338302005AC3D5 /* DrugRecordCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BD1778AC1C338302005AC3D5 /* DrugRecordCell.m */; };
 		BD3425761C2F62DE007CD26F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BD3425751C2F62DE007CD26F /* main.m */; };
 		BD3425791C2F62DE007CD26F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BD3425781C2F62DE007CD26F /* AppDelegate.m */; };
-		BD34257C1C2F62DE007CD26F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BD34257B1C2F62DE007CD26F /* ViewController.m */; };
 		BD34257F1C2F62DE007CD26F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD34257D1C2F62DE007CD26F /* Main.storyboard */; };
 		BD3425811C2F62DE007CD26F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD3425801C2F62DE007CD26F /* Assets.xcassets */; };
 		BD3425841C2F62DE007CD26F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD3425821C2F62DE007CD26F /* LaunchScreen.storyboard */; };
 		BD34258F1C2F62DE007CD26F /* ACLSTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BD34258E1C2F62DE007CD26F /* ACLSTests.m */; };
 		BD34259A1C2F62DE007CD26F /* ACLSUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BD3425991C2F62DE007CD26F /* ACLSUITests.m */; };
+		BD3425A91C2F63C0007CD26F /* ACLSTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BD3425A81C2F63C0007CD26F /* ACLSTableViewController.m */; };
+		BD3425AC1C2F640E007CD26F /* StartCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BD3425AB1C2F640E007CD26F /* StartCell.m */; };
+		BD3425AF1C2F7602007CD26F /* ACLSStart.m in Sources */ = {isa = PBXBuildFile; fileRef = BD3425AE1C2F7602007CD26F /* ACLSStart.m */; };
+		BD53A8B11C3DA0A8005F5C6E /* TimedActionObject.m in Sources */ = {isa = PBXBuildFile; fileRef = BD53A8B01C3DA0A8005F5C6E /* TimedActionObject.m */; };
+		BD53A8B41C3DA43F005F5C6E /* StartActionObject.m in Sources */ = {isa = PBXBuildFile; fileRef = BD53A8B31C3DA43F005F5C6E /* StartActionObject.m */; };
+		BD53A8B71C3DA4B4005F5C6E /* StartDrugActionObject.m in Sources */ = {isa = PBXBuildFile; fileRef = BD53A8B61C3DA4B4005F5C6E /* StartDrugActionObject.m */; };
+		BD53A8BA1C3DA50C005F5C6E /* StartEpinephrineActionObject.m in Sources */ = {isa = PBXBuildFile; fileRef = BD53A8B91C3DA50C005F5C6E /* StartEpinephrineActionObject.m */; };
+		BD7DDB041C389F3E0042FBAD /* SectionHolder.m in Sources */ = {isa = PBXBuildFile; fileRef = BD7DDB031C389F3E0042FBAD /* SectionHolder.m */; };
+		BD7DDB071C389FB30042FBAD /* StartSectionHolder.m in Sources */ = {isa = PBXBuildFile; fileRef = BD7DDB061C389FB30042FBAD /* StartSectionHolder.m */; };
+		BD7DDB0A1C38D2DB0042FBAD /* EpinephrineSectionHolder.m in Sources */ = {isa = PBXBuildFile; fileRef = BD7DDB091C38D2DB0042FBAD /* EpinephrineSectionHolder.m */; };
+		BD7DDB0D1C397D500042FBAD /* DrugDose.m in Sources */ = {isa = PBXBuildFile; fileRef = BD7DDB0C1C397D500042FBAD /* DrugDose.m */; };
+		BD7DDB101C3998480042FBAD /* DoseRecord.m in Sources */ = {isa = PBXBuildFile; fileRef = BD7DDB0F1C3998480042FBAD /* DoseRecord.m */; };
+		BD8BB2371C3CB7A500EA9695 /* TimedActionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BD8BB2361C3CB7A500EA9695 /* TimedActionCell.m */; };
+		BD8BB23A1C3CBD9F00EA9695 /* DrugDoseCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BD8BB2391C3CBD9F00EA9695 /* DrugDoseCell.m */; };
+		BD9BEC8D1C32273D00375D97 /* ACLSEnd.m in Sources */ = {isa = PBXBuildFile; fileRef = BD9BEC8C1C32273D00375D97 /* ACLSEnd.m */; };
+		BD9BEC931C322AAA00375D97 /* EpinephrineDose.m in Sources */ = {isa = PBXBuildFile; fileRef = BD9BEC921C322AAA00375D97 /* EpinephrineDose.m */; };
+		BD9BEC961C322C0D00375D97 /* EpinephrineDoseRecord.m in Sources */ = {isa = PBXBuildFile; fileRef = BD9BEC951C322C0D00375D97 /* EpinephrineDoseRecord.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,12 +52,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BD1778AB1C338302005AC3D5 /* DrugRecordCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrugRecordCell.h; sourceTree = "<group>"; };
+		BD1778AC1C338302005AC3D5 /* DrugRecordCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrugRecordCell.m; sourceTree = "<group>"; };
 		BD3425711C2F62DE007CD26F /* ACLS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ACLS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD3425751C2F62DE007CD26F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		BD3425771C2F62DE007CD26F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		BD3425781C2F62DE007CD26F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		BD34257A1C2F62DE007CD26F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		BD34257B1C2F62DE007CD26F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		BD34257E1C2F62DE007CD26F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BD3425801C2F62DE007CD26F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BD3425831C2F62DE007CD26F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +68,40 @@
 		BD3425951C2F62DE007CD26F /* ACLSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ACLSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD3425991C2F62DE007CD26F /* ACLSUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ACLSUITests.m; sourceTree = "<group>"; };
 		BD34259B1C2F62DF007CD26F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BD3425A71C2F63C0007CD26F /* ACLSTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ACLSTableViewController.h; sourceTree = "<group>"; };
+		BD3425A81C2F63C0007CD26F /* ACLSTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ACLSTableViewController.m; sourceTree = "<group>"; };
+		BD3425AA1C2F640E007CD26F /* StartCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StartCell.h; sourceTree = "<group>"; };
+		BD3425AB1C2F640E007CD26F /* StartCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StartCell.m; sourceTree = "<group>"; };
+		BD3425AD1C2F7602007CD26F /* ACLSStart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ACLSStart.h; sourceTree = "<group>"; };
+		BD3425AE1C2F7602007CD26F /* ACLSStart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ACLSStart.m; sourceTree = "<group>"; };
+		BD53A8AF1C3DA0A8005F5C6E /* TimedActionObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimedActionObject.h; sourceTree = "<group>"; };
+		BD53A8B01C3DA0A8005F5C6E /* TimedActionObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TimedActionObject.m; sourceTree = "<group>"; };
+		BD53A8B21C3DA43F005F5C6E /* StartActionObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StartActionObject.h; sourceTree = "<group>"; };
+		BD53A8B31C3DA43F005F5C6E /* StartActionObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StartActionObject.m; sourceTree = "<group>"; };
+		BD53A8B51C3DA4B4005F5C6E /* StartDrugActionObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StartDrugActionObject.h; sourceTree = "<group>"; };
+		BD53A8B61C3DA4B4005F5C6E /* StartDrugActionObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StartDrugActionObject.m; sourceTree = "<group>"; };
+		BD53A8B81C3DA50C005F5C6E /* StartEpinephrineActionObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StartEpinephrineActionObject.h; sourceTree = "<group>"; };
+		BD53A8B91C3DA50C005F5C6E /* StartEpinephrineActionObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StartEpinephrineActionObject.m; sourceTree = "<group>"; };
+		BD7DDB021C389F3E0042FBAD /* SectionHolder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SectionHolder.h; sourceTree = "<group>"; };
+		BD7DDB031C389F3E0042FBAD /* SectionHolder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SectionHolder.m; sourceTree = "<group>"; };
+		BD7DDB051C389FB30042FBAD /* StartSectionHolder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StartSectionHolder.h; sourceTree = "<group>"; };
+		BD7DDB061C389FB30042FBAD /* StartSectionHolder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StartSectionHolder.m; sourceTree = "<group>"; };
+		BD7DDB081C38D2DB0042FBAD /* EpinephrineSectionHolder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EpinephrineSectionHolder.h; sourceTree = "<group>"; };
+		BD7DDB091C38D2DB0042FBAD /* EpinephrineSectionHolder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EpinephrineSectionHolder.m; sourceTree = "<group>"; };
+		BD7DDB0B1C397D500042FBAD /* DrugDose.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrugDose.h; sourceTree = "<group>"; };
+		BD7DDB0C1C397D500042FBAD /* DrugDose.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrugDose.m; sourceTree = "<group>"; };
+		BD7DDB0E1C3998480042FBAD /* DoseRecord.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DoseRecord.h; sourceTree = "<group>"; };
+		BD7DDB0F1C3998480042FBAD /* DoseRecord.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DoseRecord.m; sourceTree = "<group>"; };
+		BD8BB2351C3CB7A500EA9695 /* TimedActionCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TimedActionCell.h; path = ../TimedActionCell.h; sourceTree = "<group>"; };
+		BD8BB2361C3CB7A500EA9695 /* TimedActionCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TimedActionCell.m; path = ../TimedActionCell.m; sourceTree = "<group>"; };
+		BD8BB2381C3CBD9F00EA9695 /* DrugDoseCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrugDoseCell.h; sourceTree = "<group>"; };
+		BD8BB2391C3CBD9F00EA9695 /* DrugDoseCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrugDoseCell.m; sourceTree = "<group>"; };
+		BD9BEC8B1C32273D00375D97 /* ACLSEnd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ACLSEnd.h; sourceTree = "<group>"; };
+		BD9BEC8C1C32273D00375D97 /* ACLSEnd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ACLSEnd.m; sourceTree = "<group>"; };
+		BD9BEC911C322AAA00375D97 /* EpinephrineDose.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EpinephrineDose.h; sourceTree = "<group>"; };
+		BD9BEC921C322AAA00375D97 /* EpinephrineDose.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EpinephrineDose.m; sourceTree = "<group>"; };
+		BD9BEC941C322C0D00375D97 /* EpinephrineDoseRecord.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EpinephrineDoseRecord.h; sourceTree = "<group>"; };
+		BD9BEC951C322C0D00375D97 /* EpinephrineDoseRecord.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EpinephrineDoseRecord.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,15 +152,49 @@
 		BD3425731C2F62DE007CD26F /* ACLS */ = {
 			isa = PBXGroup;
 			children = (
+				BD8BB2381C3CBD9F00EA9695 /* DrugDoseCell.h */,
+				BD8BB2391C3CBD9F00EA9695 /* DrugDoseCell.m */,
+				BD8BB2351C3CB7A500EA9695 /* TimedActionCell.h */,
+				BD8BB2361C3CB7A500EA9695 /* TimedActionCell.m */,
+				BD53A8AF1C3DA0A8005F5C6E /* TimedActionObject.h */,
+				BD53A8B01C3DA0A8005F5C6E /* TimedActionObject.m */,
+				BD53A8B21C3DA43F005F5C6E /* StartActionObject.h */,
+				BD53A8B31C3DA43F005F5C6E /* StartActionObject.m */,
+				BD53A8B51C3DA4B4005F5C6E /* StartDrugActionObject.h */,
+				BD53A8B61C3DA4B4005F5C6E /* StartDrugActionObject.m */,
+				BD53A8B81C3DA50C005F5C6E /* StartEpinephrineActionObject.h */,
+				BD53A8B91C3DA50C005F5C6E /* StartEpinephrineActionObject.m */,
+				BD7DDB021C389F3E0042FBAD /* SectionHolder.h */,
+				BD7DDB031C389F3E0042FBAD /* SectionHolder.m */,
 				BD3425771C2F62DE007CD26F /* AppDelegate.h */,
 				BD3425781C2F62DE007CD26F /* AppDelegate.m */,
-				BD34257A1C2F62DE007CD26F /* ViewController.h */,
-				BD34257B1C2F62DE007CD26F /* ViewController.m */,
 				BD34257D1C2F62DE007CD26F /* Main.storyboard */,
+				BD3425AA1C2F640E007CD26F /* StartCell.h */,
+				BD3425AB1C2F640E007CD26F /* StartCell.m */,
 				BD3425801C2F62DE007CD26F /* Assets.xcassets */,
 				BD3425821C2F62DE007CD26F /* LaunchScreen.storyboard */,
 				BD3425851C2F62DE007CD26F /* Info.plist */,
 				BD3425741C2F62DE007CD26F /* Supporting Files */,
+				BD3425A71C2F63C0007CD26F /* ACLSTableViewController.h */,
+				BD3425A81C2F63C0007CD26F /* ACLSTableViewController.m */,
+				BD9BEC8B1C32273D00375D97 /* ACLSEnd.h */,
+				BD9BEC8C1C32273D00375D97 /* ACLSEnd.m */,
+				BD3425AD1C2F7602007CD26F /* ACLSStart.h */,
+				BD3425AE1C2F7602007CD26F /* ACLSStart.m */,
+				BD9BEC911C322AAA00375D97 /* EpinephrineDose.h */,
+				BD9BEC921C322AAA00375D97 /* EpinephrineDose.m */,
+				BD9BEC941C322C0D00375D97 /* EpinephrineDoseRecord.h */,
+				BD9BEC951C322C0D00375D97 /* EpinephrineDoseRecord.m */,
+				BD1778AB1C338302005AC3D5 /* DrugRecordCell.h */,
+				BD1778AC1C338302005AC3D5 /* DrugRecordCell.m */,
+				BD7DDB051C389FB30042FBAD /* StartSectionHolder.h */,
+				BD7DDB061C389FB30042FBAD /* StartSectionHolder.m */,
+				BD7DDB081C38D2DB0042FBAD /* EpinephrineSectionHolder.h */,
+				BD7DDB091C38D2DB0042FBAD /* EpinephrineSectionHolder.m */,
+				BD7DDB0B1C397D500042FBAD /* DrugDose.h */,
+				BD7DDB0C1C397D500042FBAD /* DrugDose.m */,
+				BD7DDB0E1C3998480042FBAD /* DoseRecord.h */,
+				BD7DDB0F1C3998480042FBAD /* DoseRecord.m */,
 			);
 			path = ACLS;
 			sourceTree = "<group>";
@@ -270,9 +355,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BD34257C1C2F62DE007CD26F /* ViewController.m in Sources */,
+				BD53A8B71C3DA4B4005F5C6E /* StartDrugActionObject.m in Sources */,
+				BD3425AF1C2F7602007CD26F /* ACLSStart.m in Sources */,
+				BD53A8B11C3DA0A8005F5C6E /* TimedActionObject.m in Sources */,
+				BD53A8BA1C3DA50C005F5C6E /* StartEpinephrineActionObject.m in Sources */,
+				BD7DDB0D1C397D500042FBAD /* DrugDose.m in Sources */,
+				BD3425AC1C2F640E007CD26F /* StartCell.m in Sources */,
+				BD9BEC961C322C0D00375D97 /* EpinephrineDoseRecord.m in Sources */,
+				BD3425A91C2F63C0007CD26F /* ACLSTableViewController.m in Sources */,
+				BD7DDB041C389F3E0042FBAD /* SectionHolder.m in Sources */,
+				BD8BB23A1C3CBD9F00EA9695 /* DrugDoseCell.m in Sources */,
+				BD7DDB071C389FB30042FBAD /* StartSectionHolder.m in Sources */,
+				BD1778AD1C338302005AC3D5 /* DrugRecordCell.m in Sources */,
 				BD3425791C2F62DE007CD26F /* AppDelegate.m in Sources */,
+				BD9BEC8D1C32273D00375D97 /* ACLSEnd.m in Sources */,
+				BD7DDB0A1C38D2DB0042FBAD /* EpinephrineSectionHolder.m in Sources */,
 				BD3425761C2F62DE007CD26F /* main.m in Sources */,
+				BD7DDB101C3998480042FBAD /* DoseRecord.m in Sources */,
+				BD53A8B41C3DA43F005F5C6E /* StartActionObject.m in Sources */,
+				BD8BB2371C3CB7A500EA9695 /* TimedActionCell.m in Sources */,
+				BD9BEC931C322AAA00375D97 /* EpinephrineDose.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -496,6 +598,7 @@
 				BD3425A01C2F62DF007CD26F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BD3425A11C2F62DF007CD26F /* Build configuration list for PBXNativeTarget "ACLSTests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +607,7 @@
 				BD3425A31C2F62DF007CD26F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BD3425A41C2F62DF007CD26F /* Build configuration list for PBXNativeTarget "ACLSUITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +616,7 @@
 				BD3425A61C2F62DF007CD26F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
